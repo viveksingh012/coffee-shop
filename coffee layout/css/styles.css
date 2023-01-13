@@ -1,0 +1,403 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+  }
+
+  /*  nav section start............................................................ */
+  .nav{
+    position: fixed;
+    width: 100%;
+  }
+  .brand-heading{
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: 'Kaushan Script', cursive;
+  }
+  .brand-heading:hover{
+    opacity: 0.6;
+  }
+  .brand-details{
+    position: relative;
+    left: 27px
+  }
+  .nav-list{
+    background-color:#180002;
+    color: white;
+    margin: 0;
+    padding:20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+  }
+  .nav-list-item{
+    margin: auto 30px;
+    font-weight: bold;
+  }
+  .nav-anchor{
+    text-decoration: none;
+    color: white;
+  }
+  .nav-anchor:hover{
+    color: red;
+    cursor: pointer;
+  }
+
+  @media (max-width:1000px) {
+    .brand-heading{
+      font-size: 3.2rem;
+    }
+  }
+  /* nav section end................................................. */
+
+  /* home section start ......................................... */
+  .home{
+    color: white;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://cdn.pixabay.com/photo/2016/11/19/17/17/beverage-1840426__480.jpg');
+    background-size:cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+  .home-item-content{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 1.4rem;
+    margin: 20px;
+    letter-spacing: 4px;
+    text-shadow: 3px 3px 3px black;
+  }
+  .home-item-content-sign{
+    color:white;
+   font-size: 2rem;
+  }
+  /* home section end..................................................... */
+
+  /*  some info section start............................................................. */
+  .some-info{
+    background-color: #fff;
+    color: grey;
+    text-align: center;
+    padding: 80px 0px;
+  }
+  .some-info-heading{
+    color: #000;
+    font-size: 2rem;
+    font-family: sans-serif;
+    font-weight: bold;
+  }
+  .some-info-para{
+    font-size: 1.2rem;
+    width: 60%;
+    margin: auto;
+    line-height: 1.5;
+  }
+  /*  some info section end.................................................. */
+
+  /* content item and menu start here.................... */
+  .content{
+  color: white;
+  width: 100%;
+  height: 600px;
+  text-align: center;
+  display: flex;
+  justify-content: center;;
+  align-items: center;
+  background-image: url('https://cdn.pixabay.com/photo/2020/07/29/08/33/coffee-5447420__480.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  }
+  .content-para{
+    margin: 30px;
+    font-family: sans-serif;
+    font-size: 3.5rem;
+    font-weight: bold;
+    letter-spacing: 7px;
+    text-shadow: 3px 3px 3px black;
+  }
+  .btn{
+    background: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 15px 55px;
+  }
+  .btn:hover{
+    background-color: grey;
+  }
+  /* content item and menu end here.................... */
+
+  /*pricing section start here.............................................. */
+  .pricing{
+    padding: 80px 200px;
+  }
+  .pricing-head{
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 64px;
+    text-shadow: 2px 2px 3px grey;
+  }
+  .price-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+  }
+  .pricing-item{
+    display: grid;
+  grid-template-columns: auto 60px;
+  padding: 10px;
+  }
+  .pricing-item-info{
+  padding: 10px;
+
+  }
+  .pricing-item-info-head{
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  .pricing-item-info-para{
+    color: grey;
+    line-height: 1.5;
+  }
+  .price{
+  color: red;
+  padding: 10px;
+  }
+  @media (max-width:1000px){
+    .price-grid{
+      display: inline-block;
+    }
+  }
+  /*pricing section end here........................................ */
+
+  /* .................................................................. */
+  .content-menu{
+    /* background-color: #000; */
+    color: white;
+    width: 100%;
+    height: 600px;
+    text-align: center;
+    display: flex;
+    justify-content: center;;
+    align-items: center;
+    background-image: url('https://cdn.pixabay.com/photo/2018/03/07/18/42/menu-3206749__480.jpg');
+
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  /* .................................................................. */
+
+  /* coffee sample start here................................................ */
+  .coffee-sample{
+    background-color: #fff;
+    padding: 100px;
+  }
+  .coffee-testimonal-header{
+    background-color: white;
+    text-align: center;
+    /* padding-top: 100px; */
+    padding-bottom: 20px;
+  font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .coffee-testimonal-para{
+    color: brown;
+  }
+  .coffee-testimonal-head{
+    font-size: 2.5rem;
+  letter-spacing: 3px;
+  margin-top: 3px;
+  }
+  .coffee-sample-head{
+    background-color: green;
+  }
+  .coffee-sample-testimonal{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .coffee-sample-item{
+      width: 320px;
+      margin: 15px;
+      box-shadow: 3px 3px 3px grey , -3px -3px 5px grey;
+  }
+  .coffee-sample-details{
+      text-align: left;
+      padding: 40px 20px 20px 20px;
+  }
+  .coffee-sample-details-head{
+  font-size: 1.5rem;
+  font-weight: bold;
+  }
+  .coffee-sample-details-para{
+    line-height: 1.5;
+    color: grey
+  }
+  .coffee-img{
+    width: 320px;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size:cover;
+  }
+  .coffee-img:hover{
+    opacity: 0.8;
+  }
+  .coffee-sample-img1{
+    background-image: url('https://images.pexels.com/photos/6164007/pexels-photo-6164007.jpeg?auto=compress&cs=tinysrgb&w=600');
+  }
+  .coffee-sample-img2{
+  background-image: url('https://images.pexels.com/photos/15076694/pexels-photo-15076694.jpeg?auto=compress&cs=tinysrgb&w=600');
+  }
+  .coffee-sample-img3{
+  background-image: url('https://images.pexels.com/photos/1309778/pexels-photo-1309778.jpeg?auto=compress&cs=tinysrgb&w=600');
+  }
+  .coffee:hover{
+    opacity: 0.8;
+  }
+  @media (max-width:980px){
+    .coffee-sample-testimonal{
+      display:block;
+    }
+    .coffee-sample-item{
+      margin: 25px auto;
+      width: 430px;
+    }
+    .coffee-img{
+      background-color: green;
+      width: 430px;
+      height: 250px;
+      background-repeat: no-repeat;
+      background-size:cover;
+    }
+  }
+  @media (min-width:981px) and (max-width:1249px){
+    .coffee{
+      display:none;
+    }
+  }
+  /* coffee sample end here................................................ */
+
+  /* contact section start here............................................... */
+  .contact{
+    background-color: #180002;
+    color: #fff;
+  }
+  .contact-header{
+    color: white;
+    display: flex;
+    position: relative;
+    padding: 25px;
+    border-bottom: 1px solid white;
+  }
+  .contact-nav-list{
+    margin: 0;
+    padding:20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+  }
+  .contact-nav-list-item{
+  margin: auto 30px;
+  }
+  .contact-nav-list-item:hover{
+    color: red;
+    cursor: pointer;
+  }
+  .contact-content{
+    color: grey;
+    position:absolute;
+    right: 100px;
+    font-size: 15px;
+  }
+  .contact-content:hover{
+    opacity: 0.6;
+  }
+  .contact-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+  }
+  .contact-footer-brand{
+  text-align: center;
+  }
+  .contact-footer-brand-head{
+    font-size: 3.5rem;
+    font-weight: bold;
+    font-family: 'Kaushan Script', cursive;
+    margin: 0px;
+    letter-spacing: 3px;
+  }
+  .contact-footer-brand-head:hover{
+  opacity: 0.6;
+  }
+  .contact-footer-brand-details{
+  position: relative;
+  left: 15px;
+  margin: 8px;
+  font-size: 15px;
+  }
+  .business-name{
+    color: grey;
+    font-size: 15px;
+  }
+  /* contact section end here............................................... */
+
+  /* foot section start here.................................................... */
+  .foot{
+    padding-bottom: 30px;
+    text-align: center;
+  }
+  .social-icon{
+    color: brown;
+    margin: 10px;
+  }
+  .social-icon:hover{
+    opacity: 0.6;
+    color: blue;
+  }
+  /* foot section start here.................................................... */
+
+  /*msg bot section start here............................................ */
+  .msg{
+    background:transparent;
+    width: 6%;
+    border-radius: 40%;
+  position: fixed;
+   bottom :50px;
+  right: 50px;
+  }
+  img{
+      width: 6%;
+  }
+  .msg:hover{
+    opacity: 0.6;
+  }
+  a{
+    text-decoration: none;
+    color: black;
+  }
+  .msg-kit{
+    visibility: hidden;
+    font-size: 1.5rem;
+    border:1px solid black;
+    padding: 5px;
+    position: fixed;
+    right: 100px;
+    bottom: 100px;
+    border-radius: 20%;
+  }
+  a:hover .msg-kit{
+    visibility: visible;
+    background-color: white;
+  }
+  /*msg bot section end here............................................ */
